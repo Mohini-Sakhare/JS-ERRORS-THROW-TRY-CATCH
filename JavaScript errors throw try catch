@@ -34,3 +34,5 @@ catch(err) {
       Catch Block to display errors.
 }
 
+Output: 
+In the above code, our catch block will not run as there's no error in the above code and hence we get the output 'Value of variable a is: 10'.
