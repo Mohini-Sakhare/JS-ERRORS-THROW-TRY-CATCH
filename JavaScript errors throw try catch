@@ -1,0 +1,16 @@
+## JavaScript Errors Throw and Try to Catch
+
+JavaScript uses throw to create custom errors and try...catch to handle them, preventing the program from crashing.
+The finally block ensures that code runs after error handling, regardless of success or failure.
+
+* throw: Creates custom errors and stops code execution.
+* try...catch: Catches and handles errors to prevent crashes.
+* finally: Runs code after try and catch, regardless of errors.
+* Custom Errors: Create custom error types by extending the Error class.
+
+try {
+    dadalert("Welcome!");
+}
+catch (err) {
+    console.log(err);
+}
