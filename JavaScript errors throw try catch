@@ -14,3 +14,10 @@ try {
 catch (err) {
     console.log(err);
 }
+
+output:
+ReferenceError: dadalert is not defined
+
+In the above code, we make use of 'dadalert' which is not a reserved keyword 
+and is neither defined hence we get the error.  
+
