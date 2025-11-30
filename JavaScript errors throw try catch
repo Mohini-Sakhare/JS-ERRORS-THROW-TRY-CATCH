@@ -36,3 +36,16 @@ catch(err) {
 
 Output: 
 In the above code, our catch block will not run as there's no error in the above code and hence we get the output 'Value of variable a is: 10'.
+
+Javascript Throws BlockThe throw Statement
+The throw statement allows you to create custom error messages and throw exceptions manually.
+
+throw new Error("Error message");
+
+Key Point:
+
+throw creates a custom error.
+It can be used to stop the execution of a program and pass control to error handling mechanisms.
+You can throw any type of object (string, number, object, etc.), but it's common to throw an instance of Error.
+
+
