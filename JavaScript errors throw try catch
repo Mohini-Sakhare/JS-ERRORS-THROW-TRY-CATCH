@@ -68,3 +68,9 @@ try {
 } finally {
     console.log('finally');
 }
+
+Output: 
+The Finally Block can also override the message of the catch block so be careful while using it.
+
+try
+finally 
