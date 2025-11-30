@@ -56,3 +56,15 @@ catch (e) {
 }
 
 Error: Yeah... Sorry
+
+The finally Block
+The finally Statement runs unconditionally after the execution of the try/catch block. 
+Its syntax is
+
+try {
+    console.log('try');
+} catch (e) {
+    console.log('catch');
+} finally {
+    console.log('finally');
+}
