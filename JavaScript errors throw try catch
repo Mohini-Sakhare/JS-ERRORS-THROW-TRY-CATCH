@@ -74,3 +74,27 @@ The Finally Block can also override the message of the catch block so be careful
 
 try
 finally 
+
+ ** Creating Custom Error Types
+You can create custom error types by extending the built-in Error class. 
+This can be useful for more specific error handling.
+
+class ValidationError extends Error {
+    constructor(message) {
+        super(message);
+        this.name = "ValidationError";
+    }
+}
+
+function validateInput(input) {
+    if (input < 0) {
+        throw new ValidationError("Input must be a positive number");
+    }
+    return "Valid input";
+}
+
+try {
+    validateInput(-5); // Throws ValidationError
+} catch (error) {
+    console.log(`${error.name}: ${error.message}`);
+}
