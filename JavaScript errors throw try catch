@@ -98,3 +98,6 @@ try {
 } catch (error) {
     console.log(`${error.name}: ${error.message}`);
 }
+
+output:
+ValidationError: Input must be a positive number
